@@ -1,0 +1,17 @@
+.container-nav{
+	background:$color-light-gray;
+	width:100%;
+	padding:10px 5px;
+}
+.list-nav{
+	list-style:none;
+}
+.list-nav-item{
+	display:inline-block;
+	margin-right:30px;
+}
+.list-nav-link{
+	color:$color-dark-gray;
+	font-size:20px;
+	font-family:$font-title;
+}

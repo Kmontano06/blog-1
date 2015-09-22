@@ -1,0 +1,47 @@
+/*
+	Indice Globals:
+*/
+/*  #Style Main */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  padding:10px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.subtitle-guide{
+	color:$color-blue;
+	font-size:20px;
+	text-decoration:underline;
+}
+.title-main{
+	color:$color-dark-gray;
+	font-size:40px;
+	text-decoration:underline;
+}
+
+.content-color{
+	width:100px;
+	height:100px;
+	padding:10px;
+	display:inline-block;
+	text-align:center;
+	font-size:20px;
+	margin:10px;
+}
+.color-dark-gray{
+	background:$color-dark-gray;
+}
+.color-light-gray{
+	background:$color-light-gray;
+}
+h1{
+	font-size:20px;
+	font-family:$font-title;
+}
+p{
+	font-size:17px;
+	font-family:$font-body;
+}
