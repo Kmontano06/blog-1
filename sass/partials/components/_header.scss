@@ -1,0 +1,31 @@
+.header-main{
+  width: 100%;
+}
+.content-head{
+  width: 100%;
+  background: $color-blue;
+  color:$color-gray;
+  padding: 10px;
+
+  .title-main{
+  	font-family: $font-title;
+  	font-size: 30px;
+  	display: inline-block
+  }
+}
+.list-social{
+	float:right;
+	margin-top:-18px;
+}
+.list-social-item{
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+
+  .list-social-link{
+	color:$color-gray;
+	font-size:15px;
+	font-family:$font-body;
+  }
+
+}

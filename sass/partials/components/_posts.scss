@@ -1,0 +1,30 @@
+.content-post{
+	padding:10px;
+}
+.list-post-item{
+	background:$color-gray;
+	padding:20px;
+	margin:10px;
+	
+	.title-post{
+		color:$color-orange;
+		font-family: $font-title;
+		font-size: 18px;
+		margin: 5px 0;
+	}
+	.date-post{
+		color:$color-blue;
+		font-family: $font-body;
+		font-weight: lighter;  
+	}
+	.text-post{
+		font-size:16px;
+		color:$color-black;
+	}
+	.link-post{
+		color:$color-orange;
+		font-family: $font-title;
+		font-size: 18px;
+		text-decoration: underline;
+	}
+}
