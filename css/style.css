@@ -229,8 +229,8 @@ h2, h3 {
 
 .list-social {
   position: absolute;
-  right: 5px;
-  bottom: 5px; }
+  right: 10px;
+  bottom: 10px; }
 
 .list-social-item {
   display: inline-block;
@@ -258,6 +258,10 @@ h2, h3 {
 
 @media (min-width: 680px) {
   .content-post {
+    float: left;
+    width: 74%; }
+
+  .content-article {
     float: left;
     width: 74%; } }
 .list-post-item {
@@ -368,6 +372,44 @@ h2, h3 {
   font-size: 20px;
   text-decoration: underline;
   color: #E87552; }
+
+.content-article {
+  background: #E6E6E6;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.title-article {
+  font-size: 25px;
+  margin: 0;
+  color: #0b2884;
+  font-family: "Josefin Slab", Arial, sans-serif; }
+
+.paragraph-article {
+  font-size: 15px; }
+
+.date-article {
+  color: #E87552;
+  font-size: 15px;
+  margin: 0; }
+
+.info-article {
+  color: #2DC9C5;
+  font-size: 17px; }
+  .info-article .email-article {
+    display: block;
+    text-decoration: underline; }
+
+.content-image {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0; }
+
+.image-article {
+  width: 100%; }
+  @media (min-width: 960px) {
+    .image-article {
+      width: 60%; } }
 
 .footer-main {
   background: #0b2884;
