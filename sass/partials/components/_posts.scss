@@ -1,11 +1,5 @@
-.content-post{
-	padding: 35px;
-  padding-top: 10px;
-}
 .list-post-item{
 	background:$color-gray;
-	padding:20px;
-	margin:10px;
 	
 	.title-post{
 		color:$color-orange;
@@ -28,6 +22,9 @@
 		font-family: $font-title;
 		font-size: 20px;
 		text-decoration: underline;
+	}
+	.post-image{
+		width: 100%;
 	}
 }
 .content-post-control{

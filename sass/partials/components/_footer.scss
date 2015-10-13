@@ -1,6 +1,7 @@
 .footer-main{
 	background:$color-blue;
 	padding:10px;
+	position:relative;
 	clear:left;
 	.list-social{
 		margin-top: -28px;
@@ -8,6 +9,6 @@
 }
 .copyright{
 	color:$color-white;
-  font-size: 20px;
+  font-size: 17px;
   margin: 0;
 }

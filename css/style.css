@@ -228,8 +228,9 @@ h2, h3 {
   margin: 0; }
 
 .list-social {
-  float: right;
-  margin-top: -21px; }
+  position: absolute;
+  right: 5px;
+  bottom: 5px; }
 
 .list-social-item {
   display: inline-block;
@@ -240,14 +241,39 @@ h2, h3 {
     font-size: 17px;
     font-family: "Dosis", Trebuchet MS, sans-serif; }
 
+.wrapper {
+  width: 100%;
+  padding: 20px; }
+
+.sidebar-article {
+  padding: 20px;
+  margin: 20px; }
+  @media (min-width: 680px) {
+    .sidebar-article {
+      float: right;
+      width: 24%;
+      margin: 0;
+      margin-top: 10px;
+      margin-right: 10px; } }
+
 @media (min-width: 680px) {
   .content-post {
     float: left;
-    width: 69%; }
+    width: 74%; } }
+.list-post-item {
+  padding: 20px;
+  margin: 10px auto;
+  width: 70%; }
+  @media (min-width: 600px) {
+    .list-post-item {
+      display: inline-block;
+      width: 45%;
+      vertical-align: top;
+      margin: 10px; } }
+  @media (min-width: 960px) {
+    .list-post-item {
+      width: 30%; } }
 
-  .sidebar-article {
-    float: right;
-    width: 24%; } }
 .header-main {
   width: 100%; }
 
@@ -255,7 +281,8 @@ h2, h3 {
   width: 100%;
   background: #0b2884;
   color: #E6E6E6;
-  padding: 10px; }
+  padding: 10px;
+  position: relative; }
   .content-head .title-main {
     font-family: "Josefin Slab", Arial, sans-serif;
     font-size: 30px;
@@ -275,14 +302,8 @@ h2, h3 {
     font-size: 20px;
     font-family: "Dosis", Trebuchet MS, sans-serif; }
 
-.content-post {
-  padding: 35px;
-  padding-top: 10px; }
-
 .list-post-item {
-  background: #E6E6E6;
-  padding: 20px;
-  margin: 10px; }
+  background: #E6E6E6; }
   .list-post-item .title-post {
     color: #E87552;
     font-family: "Josefin Slab", Arial, sans-serif;
@@ -301,6 +322,8 @@ h2, h3 {
     font-family: "Josefin Slab", Arial, sans-serif;
     font-size: 20px;
     text-decoration: underline; }
+  .list-post-item .post-image {
+    width: 100%; }
 
 .content-post-control {
   text-align: center; }
@@ -318,9 +341,7 @@ h2, h3 {
   color: #E87552; }
 
 .sidebar-article {
-  background: #E6E6E6;
-  padding: 20px;
-  margin: 20px; }
+  background: #E6E6E6; }
 
 .title-sidebar-article {
   font-size: 25px;
@@ -351,11 +372,14 @@ h2, h3 {
 .footer-main {
   background: #0b2884;
   padding: 10px;
+  position: relative;
   clear: left; }
   .footer-main .list-social {
     margin-top: -28px; }
 
 .copyright {
   color: #fff;
-  font-size: 20px;
+  font-size: 17px;
   margin: 0; }
+
+/*# sourceMappingURL=style.css.map */

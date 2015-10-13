@@ -32,8 +32,9 @@ h2,h3{
   margin:0;
 }
 .list-social{
-  float:right;
-  margin-top:-21px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
 }
 .list-social-item{
   display: inline-block;
@@ -46,15 +47,10 @@ h2,h3{
   font-family:$font-body;
   }
 }
+.wrapper{
+  width: 100%;
+  padding:20px;
+}
 
-    @media (min-width:680px){
-        .content-post{
-            float:left;
-            width:69%;
-        }
-        .sidebar-article{
-            float:right;
-            width:24%;
-        }
-    }
+    
 
