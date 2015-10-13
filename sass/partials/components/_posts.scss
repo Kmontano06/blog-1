@@ -1,5 +1,6 @@
 .content-post{
-	padding:10px;
+	padding: 35px;
+  padding-top: 10px;
 }
 .list-post-item{
 	background:$color-gray;
@@ -9,13 +10,14 @@
 	.title-post{
 		color:$color-orange;
 		font-family: $font-title;
-		font-size: 18px;
+		font-size: 20px;
 		margin: 5px 0;
 	}
 	.date-post{
 		color:$color-blue;
 		font-family: $font-body;
-		font-weight: lighter;  
+		font-weight: lighter;
+		font-size:13px;  
 	}
 	.text-post{
 		font-size:16px;
@@ -24,7 +26,22 @@
 	.link-post{
 		color:$color-orange;
 		font-family: $font-title;
-		font-size: 18px;
+		font-size: 20px;
 		text-decoration: underline;
 	}
+}
+.content-post-control{
+	text-align: center;
+}
+.post-control{
+	display:inline-block;
+	margin:10px;
+	font-family:$font-body;
+	font-size:15px;
+	color:$color-blue; 
+}
+.pages-post{
+  font-size: 25px;
+  font-family: $font-title;
+  color:$color-orange;
 }

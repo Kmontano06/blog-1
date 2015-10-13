@@ -1,0 +1,31 @@
+.sidebar-article{
+	background:$color-gray;
+	padding:20px;
+	margin:20px;
+}
+.title-sidebar-article{
+	font-size:25px;
+	color:$color-turquese;
+	font-family:$font-title;
+}
+.list-article-item{
+	margin:0;
+	padding:0;
+	margin-top: 15px;
+}
+.title-article-item{
+	color:$color-blue;
+	font-size:20px;
+	margin:5px;
+	text-decoration:underline;
+}
+.date-article-item{
+	color:$color-orange;
+	font-size:15px;
+	margin:5px;
+}
+.sidebar-link{
+	font-size: 20px;
+  text-decoration: underline;
+  color:$color-orange;
+}

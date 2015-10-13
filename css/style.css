@@ -227,50 +227,39 @@ h2, h3 {
   padding: 0;
   margin: 0; }
 
-/*
-  Sintaxis media:
-    @media (min-width:680px){
-        .class1{
-            float:left;
-            width:74%;
-        }
-        .class2{
-            float:right;
-            width:24%;
-        }
-    }
-
-*/
-  /*
-
-		Estilos del Blog
-
-*/
-.header-main {
-  width: 100%; }
-
-.content-head {
-  width: 100%;
-  background: #0b2884;
-  color: #f9f9f9;
-  padding: 10px; }
-  .content-head .title-main {
-    font-family: "Josefin Slab", Arial, sans-serif;
-    font-size: 30px;
-    display: inline-block; }
-
 .list-social {
   float: right;
-  margin-top: -18px; }
+  margin-top: -21px; }
 
 .list-social-item {
   display: inline-block;
   vertical-align: top;
   margin: 5px; }
   .list-social-item .list-social-link {
-    color: #f9f9f9;
-    font-size: 15px;
+    color: #fff;
+    font-size: 17px;
     font-family: "Dosis", Trebuchet MS, sans-serif; }
+
+@media (min-width: 680px) {
+  .content-post {
+    float: left;
+    width: 69%; }
+
+  .sidebar-article {
+    float: right;
+    width: 24%; } }
+.header-main {
+  width: 100%; }
+
+.content-head {
+  width: 100%;
+  background: #0b2884;
+  color: #E6E6E6;
+  padding: 10px; }
+  .content-head .title-main {
+    font-family: "Josefin Slab", Arial, sans-serif;
+    font-size: 30px;
+    display: inline-block; }
 
 .list-nav {
   background: #2DC9C5;
@@ -280,35 +269,93 @@ h2, h3 {
 .list-nav-item {
   display: inline-block;
   vertical-align: top;
-  margin: 10px; }
+  margin: 4px; }
   .list-nav-item .list-nav-link {
-    color: #f9f9f9;
-    font-size: 15px;
+    color: #E6E6E6;
+    font-size: 20px;
     font-family: "Dosis", Trebuchet MS, sans-serif; }
 
 .content-post {
-  padding: 10px; }
+  padding: 35px;
+  padding-top: 10px; }
 
 .list-post-item {
-  background: #f9f9f9;
+  background: #E6E6E6;
   padding: 20px;
   margin: 10px; }
   .list-post-item .title-post {
     color: #E87552;
     font-family: "Josefin Slab", Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin: 5px 0; }
   .list-post-item .date-post {
     color: #0b2884;
     font-family: "Dosis", Trebuchet MS, sans-serif;
-    font-weight: lighter; }
+    font-weight: lighter;
+    font-size: 13px; }
   .list-post-item .text-post {
     font-size: 16px;
     color: #0F0F0F; }
   .list-post-item .link-post {
     color: #E87552;
     font-family: "Josefin Slab", Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: underline; }
 
-/*# sourceMappingURL=style.css.map */
+.content-post-control {
+  text-align: center; }
+
+.post-control {
+  display: inline-block;
+  margin: 10px;
+  font-family: "Dosis", Trebuchet MS, sans-serif;
+  font-size: 15px;
+  color: #0b2884; }
+
+.pages-post {
+  font-size: 25px;
+  font-family: "Josefin Slab", Arial, sans-serif;
+  color: #E87552; }
+
+.sidebar-article {
+  background: #E6E6E6;
+  padding: 20px;
+  margin: 20px; }
+
+.title-sidebar-article {
+  font-size: 25px;
+  color: #2DC9C5;
+  font-family: "Josefin Slab", Arial, sans-serif; }
+
+.list-article-item {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px; }
+
+.title-article-item {
+  color: #0b2884;
+  font-size: 20px;
+  margin: 5px;
+  text-decoration: underline; }
+
+.date-article-item {
+  color: #E87552;
+  font-size: 15px;
+  margin: 5px; }
+
+.sidebar-link {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #E87552; }
+
+.footer-main {
+  background: #0b2884;
+  padding: 10px;
+  clear: left; }
+  .footer-main .list-social {
+    margin-top: -28px; }
+
+.copyright {
+  color: #fff;
+  font-size: 20px;
+  margin: 0; }

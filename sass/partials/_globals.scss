@@ -29,23 +29,32 @@ a{
 }
 h2,h3{
 	padding:0;
-	margin:0;
+  margin:0;
 }
-/*
-  Sintaxis media:
+.list-social{
+  float:right;
+  margin-top:-21px;
+}
+.list-social-item{
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+
+.list-social-link{
+  color:$color-white;
+  font-size:17px;
+  font-family:$font-body;
+  }
+}
+
     @media (min-width:680px){
-        .class1{
+        .content-post{
             float:left;
-            width:74%;
+            width:69%;
         }
-        .class2{
+        .sidebar-article{
             float:right;
             width:24%;
         }
     }
 
-*//*
-
-		Estilos del Blog
-
-*/
