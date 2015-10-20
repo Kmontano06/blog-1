@@ -31,8 +31,8 @@ audio:not([controls]) {
   display: none; }
 
 html {
-  background: #fff;
-  color: #000;
+  background: white;
+  color: black;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
@@ -237,7 +237,7 @@ h2, h3 {
   vertical-align: top;
   margin: 5px; }
   .list-social-item .list-social-link {
-    color: #fff;
+    color: white;
     font-size: 17px;
     font-family: "Dosis", Trebuchet MS, sans-serif; }
 
@@ -284,7 +284,7 @@ h2, h3 {
 .content-head {
   width: 100%;
   background: #0b2884;
-  color: #E6E6E6;
+  color: #e6e6e6;
   padding: 10px;
   position: relative; }
   .content-head .title-main {
@@ -292,24 +292,54 @@ h2, h3 {
     font-size: 30px;
     display: inline-block; }
 
+.container-nav {
+  background: #e6e6e6;
+  padding: 20px 0 0;
+  text-align: center; }
+  @media (min-width: 960px) {
+    .container-nav {
+      background: tranparent;
+      padding: 0;
+      text-align: left;
+      margin-top: -20px; } }
+
 .list-nav {
-  background: #2DC9C5;
-  margin: 5px 0;
-  padding: 5px; }
+  background: #2dc9c5;
+  margin: 20px 0;
+  padding: 5px;
+  display: none; }
+  @media (min-width: 960px) {
+    .list-nav {
+      display: block; } }
 
 .list-nav-item {
-  display: inline-block;
-  vertical-align: top;
-  margin: 4px; }
+  width: 100%;
+  padding: 10px; }
   .list-nav-item .list-nav-link {
-    color: #E6E6E6;
+    color: #e6e6e6;
     font-size: 20px;
     font-family: "Dosis", Trebuchet MS, sans-serif; }
+  @media (min-width: 960px) {
+    .list-nav-item {
+      width: inherit;
+      display: inline-block;
+      vertical-align: top;
+      margin: 4px 20px;
+      padding: 0; } }
 
+.link-menu {
+  font-size: 30px;
+  color: #0b2884;
+  padding: 0 0 20px;
+  display: block; }
+
+@media (min-width: 960px) {
+  .link-menu {
+    display: none; } }
 .list-post-item {
-  background: #E6E6E6; }
+  background: #e6e6e6; }
   .list-post-item .title-post {
-    color: #E87552;
+    color: #e87552;
     font-family: "Josefin Slab", Arial, sans-serif;
     font-size: 20px;
     margin: 5px 0; }
@@ -320,9 +350,9 @@ h2, h3 {
     font-size: 13px; }
   .list-post-item .text-post {
     font-size: 16px;
-    color: #0F0F0F; }
+    color: #0f0f0f; }
   .list-post-item .link-post {
-    color: #E87552;
+    color: #e87552;
     font-family: "Josefin Slab", Arial, sans-serif;
     font-size: 20px;
     text-decoration: underline; }
@@ -342,14 +372,14 @@ h2, h3 {
 .pages-post {
   font-size: 25px;
   font-family: "Josefin Slab", Arial, sans-serif;
-  color: #E87552; }
+  color: #e87552; }
 
 .sidebar-article {
-  background: #E6E6E6; }
+  background: #e6e6e6; }
 
 .title-sidebar-article {
   font-size: 25px;
-  color: #2DC9C5;
+  color: #2dc9c5;
   font-family: "Josefin Slab", Arial, sans-serif; }
 
 .list-article-item {
@@ -364,17 +394,17 @@ h2, h3 {
   text-decoration: underline; }
 
 .date-article-item {
-  color: #E87552;
+  color: #e87552;
   font-size: 15px;
   margin: 5px; }
 
 .sidebar-link {
   font-size: 20px;
   text-decoration: underline;
-  color: #E87552; }
+  color: #e87552; }
 
 .content-article {
-  background: #E6E6E6;
+  background: #e6e6e6;
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 20px; }
@@ -389,12 +419,12 @@ h2, h3 {
   font-size: 15px; }
 
 .date-article {
-  color: #E87552;
+  color: #e87552;
   font-size: 15px;
   margin: 0; }
 
 .info-article {
-  color: #2DC9C5;
+  color: #2dc9c5;
   font-size: 17px; }
   .info-article .email-article {
     display: block;
@@ -420,8 +450,6 @@ h2, h3 {
     margin-top: -28px; }
 
 .copyright {
-  color: #fff;
+  color: white;
   font-size: 17px;
   margin: 0; }
-
-/*# sourceMappingURL=style.css.map */
