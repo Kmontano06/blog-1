@@ -2,13 +2,13 @@
 	background:$color-gray;
 	padding:20px;
 	margin-top: 10px;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .title-article{
 	font-size: 25px;
-    margin: 0;
-    color: $color-blue;
-    font-family: $font-title;
+  margin: 0;
+  color: $color-blue;
+  font-family: $font-title;
 }
 .paragraph-article{
 	font-size:15px;
@@ -21,6 +21,7 @@
 .info-article{
 	color:$color-turquese;
 	font-size:17px;
+	
 	.email-article{
 		display: block;
 		text-decoration: underline;

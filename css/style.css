@@ -253,8 +253,7 @@ h2, h3 {
       float: right;
       width: 24%;
       margin: 0;
-      margin-top: 10px;
-      margin-right: 10px; } }
+      margin-top: 10px; } }
 
 @media (min-width: 680px) {
   .content-post {
@@ -293,31 +292,24 @@ h2, h3 {
     display: inline-block; }
 
 .container-nav {
-  background: #e6e6e6;
-  padding: 20px 0 0;
-  text-align: center; }
+  display: none; }
   @media (min-width: 960px) {
     .container-nav {
-      background: tranparent;
-      padding: 0;
-      text-align: left;
-      margin-top: -20px; } }
+      display: block;
+      padding: 0; } }
 
 .list-nav {
   background: #2dc9c5;
-  margin: 20px 0;
+  margin: 0;
   padding: 5px;
-  display: none; }
-  @media (min-width: 960px) {
-    .list-nav {
-      display: block; } }
+  text-align: center; }
 
 .list-nav-item {
   width: 100%;
   padding: 10px; }
   .list-nav-item .list-nav-link {
     color: #e6e6e6;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Dosis", Trebuchet MS, sans-serif; }
   @media (min-width: 960px) {
     .list-nav-item {
@@ -330,12 +322,20 @@ h2, h3 {
 .link-menu {
   font-size: 30px;
   color: #0b2884;
-  padding: 0 0 20px;
-  display: block; }
+  padding: 20px;
+  display: block;
+  background: #e6e6e6;
+  text-align: center; }
+  @media (min-width: 960px) {
+    .link-menu {
+      display: none; } }
 
-@media (min-width: 960px) {
-  .link-menu {
-    display: none; } }
+.sticky {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2; }
+
 .list-post-item {
   background: #e6e6e6; }
   .list-post-item .title-post {
